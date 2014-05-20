@@ -29,6 +29,7 @@
 								<option id="gnu.c.compiler.option.include.paths.1592806944" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libJIP/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="/usr/local/src/openWRT/targets/lpc32xx/backfire/staging_dir/target-arm_uClibc-0.9.33.2_eabi/usr/include"/>
+									<listOptionValue builtIn="false" value="/usr/local/src/openWRT/targets/lpc32xx/backfire/staging_dir/target-arm_uClibc-0.9.33.2_eabi/usr/include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libaca}&quot;"/>
 									<listOptionValue builtIn="false" value="/usr/local/src/openWRT/targets/lpc32xx/backfire/staging_dir/target-arm_uClibc-0.9.33.2_eabi/usr/include/libxml2"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libJIP/Source/Common}&quot;"/>
@@ -49,9 +50,13 @@
 								</option>
 								<option id="gnu.c.link.option.userobjs.1749697254" name="Other objects" superClass="gnu.c.link.option.userobjs" valueType="userObjs">
 									<listOptionValue builtIn="false" value="/usr/local/src/openWRT/targets/lpc32xx/backfire/staging_dir/target-arm_uClibc-0.9.33.2_eabi/usr/lib/libxml2.a"/>
+									<listOptionValue builtIn="false" value="/usr/local/src/openWRT/targets/lpc32xx/backfire/staging_dir/target-arm_uClibc-0.9.33.2_eabi/usr/lib/libsqlite3.a"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/libaca/libACA_NXP.a}&quot;"/>
 									<listOptionValue builtIn="false" value="/usr/local/src/openWRT/targets/lpc32xx/backfire/staging_dir/target-arm_uClibc-0.9.33.2_eabi/usr/lib/libtecla.a"/>
 									<listOptionValue builtIn="false" value="/usr/local/src/openWRT/targets/lpc32xx/backfire/staging_dir/target-arm_uClibc-0.9.33.2_eabi/usr/lib/libz.a"/>
+								</option>
+								<option id="gnu.c.link.option.paths.1521643403" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="/usr/local/src/openWRT/targets/lpc32xx/backfire/staging_dir/target-arm_uClibc-0.9.33.2_eabi/usr/lib"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1147460844" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>

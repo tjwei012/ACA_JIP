@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.654280833/STAGING_DIR/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.654280833/STAGING_DIR/operation=append
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.654280833/STAGING_DIR/value=/usr/local/src/openWRT/targets/lpc32xx/backfire/staging_dir
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.654280833/append=true
+environment/project/cdt.managedbuild.config.gnu.cross.exe.debug.654280833/appendContributed=true

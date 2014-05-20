@@ -152,7 +152,7 @@ void* sendPropertyOfChild(void* arg){
 
 int main(void) {
 
-
+#if 0
     arrayent_config_t arrayent_config;
     arrayent_config.product_id = ARR_PRODUCT_ID;
     arrayent_config.product_aes_key = ARR_PRODUCT_AES_KEY;
@@ -199,9 +199,12 @@ int main(void) {
    char buffer[128];
    uint16_t len = 0;
    int ret = 0;
+#endif
+//   JipInit();
 
-   JipInit();
+   while(1);
    /*receive property*/
+#if 0
    while(1){
 
 	   len = sizeof(buffer);
@@ -225,4 +228,5 @@ int main(void) {
    }
 
 	return EXIT_SUCCESS;
+#endif
 }

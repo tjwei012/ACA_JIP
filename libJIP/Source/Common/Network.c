@@ -56,8 +56,8 @@
 #include <Trace.h>
 #include <Threads.h>
 
-#define DBG_FUNCTION_CALLS 0
-#define DBG_NETWORK 0
+#define DBG_FUNCTION_CALLS 1
+#define DBG_NETWORK 1
 
 /** Timeout period (ms) for powered devices */
 #define JIP_CLIENT_TIMEOUT_POWERED      500 

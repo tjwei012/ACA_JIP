@@ -48,8 +48,8 @@
 #include <Network.h>
 #include <Trace.h>
 
-#define DBG_FUNCTION_CALLS 0
-#define DBG_DISCOVERY 0
+#define DBG_FUNCTION_CALLS 1
+#define DBG_DISCOVERY 1
 
 #define DISCOVER_NETWORK_CHILD_TABLE
 

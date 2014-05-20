@@ -880,7 +880,7 @@ static void *pvNetworkChangeMonitorThread(void *psThreadInfoVoid)
         /* This thread can now spin here and rediscover every 60s to catch any changes
          * that haven't been picked up by the trap
          */
-#define DISCOVERY_TIME (60)
+#define DISCOVERY_TIME (10)
         if (eJIPService_DiscoverNetwork(psJIP_Context) != E_JIP_OK)
         {
             DBG_vPrintf(DBG_JIP_CLIENT, "Error discovering network\n");
